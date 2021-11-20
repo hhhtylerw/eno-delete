@@ -18,11 +18,11 @@ while True:
     try:
         driver.get("https://myaccounts.capitalone.com/VirtualCards")
         time.sleep(5)
-        driver.find_element("xpath", '//*[@id="page-content"]/div/div/div/c1-ease-root/c1-ease-commerce-virtual-cards-manager-toggle-container/c1-ease-commerce-virtual-numbers-container/c1-ease-commerce-virtual-numbers/div/div/div[1]/c1-ease-commerce-card-row/div/div[2]/div[1]/div[1]/c1-ease-commerce-virtual-number-tile/div[2]/div').click()
+        driver.find_element('xpath', '//*[@id="page-content"]/div/div/div/c1-ease-root/c1-ease-commerce-virtual-cards-manager-toggle-container/c1-ease-commerce-virtual-numbers-container/c1-ease-commerce-virtual-numbers/div/div/div[1]/c1-ease-commerce-card-row/div/div[2]/div[1]/div[1]/c1-ease-commerce-virtual-number-tile/div[2]/div').click()
         time.sleep(2)
-        driver.find_element("xpath", '//*[@id="cdk-step-content-0-0"]/c1-ease-commerce-edit-screen/div/button').click()
+        driver.find_element('xpath', '//*[@id="cdk-step-content-0-0"]/c1-ease-commerce-edit-screen/div/button').click()
         time.sleep(2)
-        driver.find_element("xpath", '//*[@id="cdk-step-content-0-1"]/c1-ease-commerce-delete-confirm-screen/div/button[1]').click()
+        driver.find_element('xpath', '//*[@id="cdk-step-content-0-1"]/c1-ease-commerce-delete-confirm-screen/div/button[1]').click()
         time.sleep(2)
     except:
         print('error, continuing...')
