@@ -15,5 +15,7 @@
 
  2. Install selenium with "pip install selenium" in command line
  3. Change "s" variable to the path of your chromedriver.exe
- 4. Run, login, and hit enter in the command line once done
- 5. Go do something else
+ 4. Change "keyword" variable to site you want to delete
+    Leave blank to delete all cards
+ 5. Run, login, and hit enter in the command line once done
+ 6. Go do something else
