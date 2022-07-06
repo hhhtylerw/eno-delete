@@ -1,9 +1,10 @@
 # eno-delete
  Automatically deletes Capital One Eno virtual cards for when you've made a couple too many. 
+ Now supports keywords so you can delete only one site's cards.
 
- Warning: Program will delete ALL virtual cards if given enough time.
+ Warning: Program will delete ALL virtual cards if "keyword" is left blank.
 
- Note: Your Capital One session will expire after some time, so you will have to restart and log in again.
+ Note: Your Capital One session will expire after some time, so you may have to restart and log in again.
 
 
  How to use:
