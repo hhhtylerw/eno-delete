@@ -8,7 +8,7 @@ s = Service(r"C:\Users\hhhtylerw\chromedriver.exe")
 
 # Change this to the name of the cards you want to delete
 # Leave blank for all cards
-keyword = "grub"
+keyword = "uber"
 
 options = Options()
 options.add_experimental_option('excludeSwitches', ['enable-logging','enable-automation'])
